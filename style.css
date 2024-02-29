@@ -1,0 +1,161 @@
+/* Write some CSS below */
+body {
+    font-family: Overpass;
+    margin: 0px;
+    display: block;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_1280.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    padding: 150px 0px;
+    diplay: flex;
+    flex-direction: column;
+    z-index: 1000;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 150px;
+    border-bottom: 5px solid darkgoldenrod;
+}
+
+header:hover{
+	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/0808e633491891.56ad0ba29624c.jpg);
+	background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    margin: 0px;
+    font-family: overpass;
+}
+
+header:hover h1{
+	color: darkred;
+}
+
+header:hover p{
+	color: darkred;
+}
+
+
+p{
+    opacity: 0,7;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+a{
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #654321;
+    color: white;
+    font-family: cursive;
+    display: inline-block;
+    padding: 15px 47px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+div{
+    display: block;
+}
+
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(https://www.casayoga.tv/images/images-blog-2/92-casayogatv-blog-l-element-feu.jpg);
+    background-size: cover;
+    border-top: 5px solid darkgoldenrod;
+
+}
+
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83;
+    margin-block-end: 0.83;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+ 	width: 100%;
+
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: #f5f0e1;
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+
+.card img{
+    object-fit: cover;
+    diisplay: block;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    color: #654321;
+    font-size: 15px;
+}
+
+
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 40px;
+    diplay: flex;
+    flex-direction: column;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 10px;
+}
